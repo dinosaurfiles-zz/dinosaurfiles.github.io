@@ -9,13 +9,6 @@ body:after {
 body:after {
   clear: both;
 }
-/* html{ 
--webkit-filter: grayscale(100%); 
--moz-filter: grayscale(100%); 
--ms-filter: grayscale(100%); 
--o-filter: grayscale(100%); 
-filter: grayscale(100%); 
-}  */
 @font-face {
   font-family: 'FontAwesome';
   src: url("fonts/fontawesome-webfont.eot");
@@ -651,13 +644,6 @@ a {
 #header .header-nav .social a.google:hover {
   border: 1px solid #9c3019;
 }
-#header .header-nav .social a.pinboard {
-  background: url("/img/pinboard.png") center no-repeat #1e90ff;
-  border: 1px solid #1e90ff;
-}
-#header .header-nav .social a.pinboard:hover {
-  border: 1px solid #1e90ff;
-}
 #header .header-nav .social a.twitter {
   background: url("/img/twitter.png") center no-repeat #55cff8;
   border: 1px solid #55cff8;
@@ -734,16 +720,11 @@ a {
 }
 .archives-wrap {
   position: relative;
-  margin: 0 30px;
+  margin: 30px;
+  margin: 30px;
   padding-right: 60px;
   border-bottom: 1px solid #eee;
   background: #fff;
-}
-.archives-wrap:first-child {
-  margin-top: 30px;
-}
-.archives-wrap:last-child {
-  margin-bottom: 80px;
 }
 .archives-wrap .archive-year-wrap {
   line-height: 35px;
@@ -1344,16 +1325,11 @@ a {
 }
 .archives-wrap {
   position: relative;
-  margin: 0 30px;
+  margin: 30px;
+  margin: 30px;
   padding-right: 60px;
   border-bottom: 1px solid #eee;
   background: #fff;
-}
-.archives-wrap:first-child {
-  margin-top: 30px;
-}
-.archives-wrap:last-child {
-  margin-bottom: 80px;
 }
 .archives-wrap .archive-year-wrap {
   line-height: 35px;
@@ -1688,7 +1664,6 @@ pre .javascript .function {
 }
 #page-nav {
   text-align: center;
-  margin-top: 30px;
 }
 #page-nav .page-number {
   width: 20px;
@@ -2168,25 +2143,6 @@ pre .javascript .function {
   margin-top: 9px;
 }
 .article-category:after {
-  float: left;
-  content: "";
-  margin-right: 20px;
-  margin-top: 9px;
-  float: left;
-}
-.article-pop-out {
-  float: left;
-}
-.article-pop-out:before {
-  float: left;
-  color: #999;
-  content: "\f08d";
-  font: 16px FontAwesome;
-  float: left;
-  margin-right: 10px;
-  margin-top: 9px;
-}
-.article-pop-out:after {
   float: left;
   content: "";
   margin-right: 20px;
