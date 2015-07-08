@@ -1,11 +1,12 @@
 <!-- sidebar.html -->
+<!DOCTYPE html>
 <header class="sidebar-header" role="banner">
 	<a href="{{ site.BASE_PATH }}/">
-		<img src="http://www.gravatar.com/avatar/{{site.author.email_md5}}?s=150" class="img-circle" />
+		<img src="https://i.imgur.com/5F5ktz9.png" class="img-circle" />
 	</a>
 	<h3 class="title">
-        <a href="{{ site.BASE_PATH }}/">{{ site.title }}</a>
-    </h3>
+		<a href="{{ site.BASE_PATH }}/">{{ site.title }}</a>
+	</h3>
 </header>
 
 {% if site.author.bio %}
@@ -22,15 +23,13 @@
 				<i class="fa fa-github-alt fa-lg"></i>
 			</a>
 		</li>
-		{% endif %}
-		{% if site.author.twitter %}
+		{% endif %} {% if site.author.twitter %}
 		<li>
 			<a class="btn btn-default btn-sm" href="https://twitter.com/{{ site.author.twitter }}">
 				<i class="fa fa-twitter fa-lg"></i>
 			</a>
 		</li>
-		{% endif %}
-		{% if site.author.email %}
+		{% endif %} {% if site.author.email %}
 		<li>
 			<a class="btn btn-default btn-sm" href="mailto:{{ site.author.email }}">
 				<i class="fa fa-envelope fa-lg"></i>
@@ -45,8 +44,7 @@
 				<i class="fa fa-pinterest fa-lg"></i>
 			</a>
 		</li>
-		{% endif %}
-		{% if site.author.linkedin %}
+		{% endif %} {% if site.author.linkedin %}
 		<li>
 			<a class="btn btn-default btn-sm" href="https://linkedin.com/pub/{{ site.author.linkedin }}">
 				<i class="fa fa-linkedin fa-lg"></i>
