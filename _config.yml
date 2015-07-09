@@ -1,32 +1,5 @@
-# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
-
-paginate: 10 # pagination based on number of posts
-paginate_path: "page:num"
-exclude: ["README.md"] # files to exclude
+# General Jekyll Config
 highlighter: pygments
-markdown: kramdown
-
-
-defaults:
-  -
-    scope:
-      path: "" # empty string for all files
-    values:
-      title: dinosaurfiles; a blog about information enthropy
-
-description: Stylish Jekyll Theme
-author:
-  name: dbyll
-  email: dbyll@ismaildemirbilek.com
-  github: dbtek
-  twitter: dbtek
-  pinterest: asd123
-  linkedin: asd123
-  bio: Your stylish, minimalist theme!
-  email_md5: 1389da1c8bcfddef66437b8ad1b11faa
-
-rss_path: feed.xml
-categories_path: categories.html
-tags_path: tags.html
-
-BASE_PATH:
+url: https://dinosaurfiles.github.io/
+lsi: false
+exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock]
