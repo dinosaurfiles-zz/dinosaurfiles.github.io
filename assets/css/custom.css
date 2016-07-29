@@ -1,0 +1,51 @@
+.home-nav {
+    position: absolute;
+    display: inline-flex;
+    bottom: 50px;
+    width: 100%;
+}
+
+.home-nav-logo {
+    width: 20%;
+    background-color: black;
+    padding: 10px;
+}
+
+.home-nav-logo * {
+    float: right;
+}
+
+.home-nav-logo h3 {
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.home-nav-logo img {
+    width: 100px;
+}
+
+.home-nav-links {
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: inline-block;
+    vertical-align: top;
+}
+
+.home-nav-links ul{
+    position: relative;
+    vertical-align: text-top;
+    transform: translateY(-50%);
+    top: 50%;
+}
+
+.home-nav-links li a {
+    font-size: 22px;
+    color: white;
+    margin-left: 20px;
+}
+
+.home-nav-links a:hover {
+    color: rgb(103, 103, 103);
+    text-decoration: none;
+}
