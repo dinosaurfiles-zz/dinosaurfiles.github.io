@@ -32,6 +32,14 @@
 	transform: translateY(-50%);
 	top: 50%;
 }
+
+/* Chrome and Safari Specific */
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	.home-nav-links ul {
+		-webkit-transform: translateY(50%);
+	}
+}
 .home-nav-links li a {
 	font-size: 22px;
 	color: white;
