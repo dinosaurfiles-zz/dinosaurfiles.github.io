@@ -1,59 +1,70 @@
 .home-nav {
-	position: absolute;
-	display: inline-flex;
-	bottom: 50px;
-	width: 100%;
+		position: absolute;
+		display: inline-flex;
+		bottom: 50px;
+		width: 100%;
 }
+
 .home-nav-logo {
-	display: block;
-	width: 20%;
-	background-color: black;
-	padding: 10px;
+		display: block;
+		width: 20%;
+		background-color: black;
+		padding: 10px;
 }
+
 .home-nav-logo * {
-	float: right;
-	clear: both;
+		float: right;
+		clear: both;
 }
-.home-nav-logo h3, a{
-	color: white;
-	margin-top: 0px;
-	margin-bottom: 0px;
+
+.home-nav-logo h3, a {
+		color: white;
+		margin-top: 0px;
+		margin-bottom: 0px;
 }
+
 .home-nav-logo h5 {
-	margin: 0px 0px 5px 0px;
+		margin: 0px 0px 5px 0px;
 }
+
 .home-nav-logo img {
-	width: 100px;
+		width: 100px;
 }
+
 .home-nav-links {
-	width: 80%;
-	background-color: rgba(0, 0, 0, 0.8);
-	display: inline-block;
-	vertical-align: top;
+		width: 80%;
+		background-color: rgba(0, 0, 0, 0.8);
+		display: inline-block;
+		vertical-align: top;
 }
+
 .home-nav-links ul {
-	position: relative;
-	vertical-align: text-top;
-	transform: translateY(-50%);
-	top: 50%;
+		position: relative;
+		vertical-align: text-top;
+		transform: translateY(-50%);
+		top: 50%;
 }
+
 .home-nav-links li {
-	font-size: 22px;
-	color: white;
-	margin-left: 20px;
+		font-size: 22px;
+		color: white;
+		margin-left: 20px;
 }
+
 .home-nav-links li.social-links a {
-	margin: 0px 10px 0px 0px;
+		margin: 0px 10px 0px 0px;
 }
+
 .home-links a:hover {
-	color: rgb(103, 103, 103);
-	text-decoration: none;
+		color: rgb(103, 103, 103);
+		text-decoration: none;
 }
+
 
 /* Chrome and Safari Specific */
 
 @media screen and (-webkit-min-device-pixel-ratio:0) {
-	.home-nav-links ul {
-		-webkit-transform: translateY(50%);
-	}
+		.home-nav-links ul {
+				-webkit-transform: translateY(50%);
+		}
 }
